@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap');
+
+/*////////////////////////////////////////////////////////////////////////
+Table of Contents:
+    1. Global Styles
+    2. Typografie
+    3. Areas
+        3.1 Header
+        3.2 Testimonial
+        3.3 Support
+        3.4 Faq
+        3.5 Footer
+////////////////////////////////////////////////////////////////////////*/
+
+/*
+grijs #899CA0
+donkergroen #1C2B32
+*/
+
+/*////////////////////////
+    1. Global Styles
+////////////////////////*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited,
+a:active {
+    color: #899CA0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/*////////////////////////
+    2. Typography
+////////////////////////*/
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+input,
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*////////////////////////
+    3. Areas
+////////////////////////*/
+
+/*///////////// 3.1 Header /////////////*/
+
+
+header {
+    text-align: center;
+    color: #1C2B32;
+    padding-bottom: 300px;
+    padding-top: 100px;
+
+    background-image: url("../assets/images/mountains.jpg");
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    font-size: 120px;
+    font-weight: 700;
+}
+
+.hero-section {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 30px auto;
+}
+
+fieldset {
+    border: 0;
+}
+
+fieldset input {
+    height: 60px;
+    width: 400px;
+    margin-right: -5px;
+    background-color: transparent;
+    border: 3px solid #1C2B32;
+    border-radius: 50px 0 0 50px;
+}
+
+fieldset input::placeholder {
+    padding-left: 20px;
+    color: #1C2B32;
+}
+
+fieldset button {
+    height: 60px;
+    width: 200px;
+    background-color: #1C2B32;
+    color: white;
+    border: 3px solid #1C2B32;
+    border-radius: 0 50px 50px 0;
+}
+
+/*///////////// 3.3 Support /////////////*/
+
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card {
+    margin-bottom: 50px;
+    padding: 50px 100px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-section {
+    display: flex;
+}
+
+.quote-icon {
+    height: 30px;
+}
+
+.card p {
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+.card i {
+    margin-top: 8px;
+    margin-left: 30px;
+}
+
+.avatar-img {
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    margin-left: 55px;
+}
+
+.service img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.service p {
+    margin: 20px 0;
+}
+
+.service button {
+    padding: 20px 30px;
+    border-radius: 50px;
+    background-color: #1C2B32;
+    color: white;
+}
+
+/*///////////// 3.4 Faq /////////////*/
+
+details {
+    margin-bottom: 40px;
+}
+
+details p {
+    background-color: #7c8e94;
+    color: white;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 10px 0;
+}
+
+details:hover {
+    cursor: pointer;
+}
+
+/*///////////// 3.5 Footer /////////////*/
+
+footer {
+    background-color: #1C2B32;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+    font-size: small;
+}
